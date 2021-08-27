@@ -1,0 +1,165 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>David Evans</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/spectre.min.css">
+    <link rel="stylesheet" href="css/spectre-icons.min.css">
+    <link rel="stylesheet" href="spectre-exp.min.css">
+    <link rel="stylesheet" href="css/_style.css">
+
+    <link rel="shortcut icon" type="image/png" href="favicon.png" />
+</head>
+
+<script>
+    function showEmail() {
+        var email = document.getElementById('email')
+
+        if (email.innerText)
+            return;
+
+        var email = document.getElementById('email');
+        email.id = 'email';
+        email.innerText =
+            'hello' + // This is
+            '@' + // just to
+            'davidevans' + // try and
+            '.' + // prevent spam
+            'io';
+    }
+</script>
+
+<body>
+    <div class="container">
+        <div class="columns">
+            <div class="col-4 col-mx-auto">
+                <h3>Hi there!</h3>
+                <h1 class="bold-heading">I'm David Evans</h1>
+                <p>I'm a software engineer living near Nottingham, currently working for
+                    <a href="https://www.capitalone.co.uk/" target="_blank">Capital One</a>
+                </p>
+                <p>I'm always interested in new opportunities so feel free to get in
+                    <a onclick="showEmail()">touch</a>
+                </p>
+                <p id="email">
+
+                </p>
+                <h4>About me</h4>
+                <p>C#, SQL, .NET core, ASP.NET, MVC, JS, HTML, CSS, Git, AWS, Docker</p>
+                <h4>Education</h4>
+                <p>BSc Hons Computer Science - University of East Anglia (2007) 2:1 Attained</p>
+                <p>AWS Certified Cloud Practitioner</p>
+                <h4>Places I've worked</h4>
+                <details class="accordion">
+                    <summary class="accordion-header">
+                        <i class="icon icon-arrow-right mr-1"></i>
+                        Capital One (Sep 2019 - Present)
+                    </summary>
+                    <div class="accordion-body">
+                        Joined team Asgard within the Grow tribe helping to deliver platform services that enable
+                        Capital
+                        One to comply with upcoming PSD2 regulation. PSD2 is designed to help end users gain control
+                        over
+                        their data, forcing businesses to open up access to one another. Using the Open Banking Standard
+                        we
+                        have implemented services that allow Capital One customers to grant consent to third parties so
+                        that
+                        they may securely share their account data with other financial organisations such as Yolt, a
+                        money
+                        management app. Recently took ownership of the Credit Limit Increase platform (CLIP) where we
+                        have worked to improve the stability and maintainability of the service. CLIP would frequently
+                        have
+                        outages under load and our work has delivered a better experience for our customers and
+                        significantly reduced revenue loss to the company.</div>
+                </details>
+                <details class="accordion">
+                    <summary class="accordion-header">
+                        <i class="icon icon-arrow-right mr-1"></i>
+                        Ideagen (Aug 2015 - Sep 2019)
+                    </summary>
+                    <div class="accordion-body">
+                        Initially worked on a redevelopment project for Public Health England, a system that allows
+                        direct
+                        and secure retrieval of lab results for doctors. We took the decision to redevelop given the age
+                        of
+                        the
+                        previous system and the lack of maintainability. Following the successful completion of the
+                        project
+                        for Public Health England I was promoted to a senior level and moved to working on a new
+                        document
+                        viewer plugin. This included developing a back end that could convert different document formats
+                        into individual page images. During this project I also helped mentor developers as they
+                        transitioned
+                        from Classic ASP to C# .NET Core. Later I was part of a research project working to improve our
+                        business intelligence products. We investigated using microservices on AWS that would be able to
+                        take data from multiple sources and transform it into a data lake that would be compatible with
+                        many
+                        third-party BI tools.</div>
+                </details>
+                <details class="accordion">
+                    <summary class="accordion-header">
+                        <i class="icon icon-arrow-right mr-1"></i>
+                        Safeware Quasar (Nov 2013 - Aug 2015)
+                    </summary>
+                    <div class="accordion-body">Helped to maintain an existing web application for use in the chemical
+                        regulatory industry. The main
+                        objective was to simplify the creation of Safety Data Sheets, a complex regulatory document with
+                        multiple rules for construction. Users would look up chemicals and the system would help
+                        automate
+                        large parts of the creation process. This included a review and sign off process and a document
+                        management system. I also took ownership of the creation of an application to process chemical
+                        data
+                        from regulatory bodies into an internal reference database that would give users a foundation to
+                        base their work on.</div>
+                </details>
+                <details class="accordion">
+                    <summary class="accordion-header">
+                        <i class="icon icon-arrow-right mr-1"></i>
+                        Green Man Gaming (Mar 2013 - Nov 2013)
+                    </summary>
+                    <div class="accordion-body">Worked on a desktop app for Playfire, a social network for gamers which
+                        had over one million users.
+                        The app allowed them to track various gaming platforms into one profile on Playfire. The
+                        application
+                        scrapes data from several gaming account sites and uploads the data to the user's Playfire
+                        account.
+                        During my time here I helped add new platforms to the scraper, optimize the performance of the
+                        code and implemented a new UI.</div>
+                </details>
+                <details class="accordion">
+                    <summary class="accordion-header">
+                        <i class="icon icon-arrow-right mr-1"></i>
+                        See Tickets (Jun 2009 - Feb 2013)
+                    </summary>
+                    <div class="accordion-body">Developed and maintained ticketing and retail websites for football,
+                        cricket and rugby clubs.
+                        Initially
+                        maintaining around ten sites we had expanded to over thirty within two years, completely
+                        redeveloping the site in that time. We created a new component to allow users to print tickets
+                        at
+                        home and gain entry using a barcode. I built much of the internal content management system from
+                        the ground up, helping customers control website content and reducing calls to our helpdesk.
+                    </div>
+                </details>
+                <details class="accordion">
+                    <summary class="accordion-header">
+                        <i class="icon icon-arrow-right mr-1"></i>
+                        Ideagen (May 2007 - Jun 2009)
+                    </summary>
+                    <div class="accordion-body">Programming scripts for data extraction and processing, taking data from
+                        scanned forms to upload to
+                        a document management system. I moved on to bug fixing and testing the core document
+                        management system and later I worked on developing a custom version for the Health Protection
+                        Agency. Later helping to develop a new product for an infection control system.</div>
+                </details>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
